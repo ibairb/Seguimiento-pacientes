@@ -1,4 +1,5 @@
 import Paciente from "./Paciente"
+import { useEffect } from "react";
 
 function ListadoPacientes({ pacientes, setPaciente }) {
 

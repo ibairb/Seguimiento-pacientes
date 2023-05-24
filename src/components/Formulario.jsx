@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Error from './Error'
 
-const Formulario = ({ pacientes, setPacientes }) => {
+const Formulario = ({ pacientes, setPacientes, paciente }) => {
   const [nombre, setNombre] = useState('')
   const [nombrePropietario, setNombrePropietario] = useState('')
   const [email, setEmail] = useState('')
